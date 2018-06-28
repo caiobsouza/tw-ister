@@ -1,0 +1,18 @@
+{
+  "name": "tw-ister",
+  "version": "1.0.0",
+  "description": "twister da tw",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha --recursive --exit test/**/*.test.js -R nyan"
+  },
+  "author": "Caio Souza",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
+}

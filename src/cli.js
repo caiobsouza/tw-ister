@@ -1,4 +1,5 @@
 const readline = require('readline');
+const figlet = require('figlet');
 const run = require('./util/run')
 
 module.exports = () => {
@@ -7,6 +8,7 @@ module.exports = () => {
         output: process.stdout
     });
 
+    console.log(figlet.textSync('TW - ISTER'));
     console.log('Enter to twist! [or type exit]');
 
     const read = () => {
